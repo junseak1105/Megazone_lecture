@@ -1,0 +1,21 @@
+package questionpool;
+
+public class agechk {
+
+	public static void main(String[] args) {
+		
+		int age = 59;
+		if(30>age&&age>=20) {
+			System.out.println("20대입니다");
+		}else if(40>age&&age>=30) {
+			System.out.println("30대입니다");
+		}else if(50>age&&age>=40) {
+			System.out.println("40대입니다");
+		}else if(60>age&&age>=50) {
+			System.out.println("50대입니다");
+		}else if(70>age&&age>=60) {
+			System.out.println("60대입니다");
+		}
+	}
+
+}

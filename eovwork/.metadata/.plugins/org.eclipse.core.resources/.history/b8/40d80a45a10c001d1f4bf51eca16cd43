@@ -1,0 +1,28 @@
+package j20220726;
+
+import java.util.Iterator;
+
+public class For_2 {
+
+	public static void main(String[] args) {
+		int init = 2;
+		if (init % 2 == 0) {
+			System.out.println("짝수만 들어온다");
+		}
+		
+		//3~20합을 구하시오
+		int sumeven=0;
+		int sumodd=0;
+		
+		for (int i = 3;i<21;i++) {
+			if(i%2==0) {
+				sumeven+=i;
+			}else {
+				sumodd+=i;
+			}
+		}
+		System.out.println("짝수합:"+sumeven);
+		System.out.println("홀수합:"+sumodd);
+	}
+
+}

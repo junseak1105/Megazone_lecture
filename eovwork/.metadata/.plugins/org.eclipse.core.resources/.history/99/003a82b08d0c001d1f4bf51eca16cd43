@@ -1,0 +1,32 @@
+package questionpool;
+
+public class If_Question {
+
+	public static void main(String[] args) {
+		int age = 29;
+		
+		if (age >= 50) {
+			System.out.println("50대");
+		} else if (age >= 40) {
+			System.out.println("40대");
+		} else if (age >= 30) {
+			System.out.println("30대");
+		} else if (age >= 20) {
+			System.out.println("20대");
+		}
+		
+		if(age>60&&age>=50) {
+			System.out.println("50대");
+		}
+		if(age>50&&age>=40) {
+			System.out.println("40대");
+		}
+		if(age>40&&age>=30) {
+			System.out.println("30대");
+		}
+		if(age>30&&age>=20) {
+			System.out.println("20대");
+		}
+	}
+
+}

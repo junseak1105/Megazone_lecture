@@ -1,0 +1,16 @@
+package j20220726;
+
+public class if_2 {
+	public static void main(String[] args) {
+		int one = 30;
+		int two = 30;
+
+		if (one >= 30) {
+			System.out.println("30보다 같거나 크다");
+		} else if (one >= 40) {
+			System.out.println("40보다 같거나 크다");
+		} else if (one >= 50) {
+			System.out.println("50보다 같거나 크다");
+		}
+	}
+}
