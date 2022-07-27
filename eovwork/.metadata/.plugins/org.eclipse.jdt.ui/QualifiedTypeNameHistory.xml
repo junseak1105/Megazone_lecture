@@ -5,4 +5,12 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="j20220726.DoWhile_1"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="j20220727.GlobalVal_1"/>
+    <fullyQualifiedTypeName name="j20220727.GlobalVal_2"/>
+    <fullyQualifiedTypeName name="j20220727.Gwang_1"/>
+    <fullyQualifiedTypeName name="j20220727.Method_1"/>
+    <fullyQualifiedTypeName name="j20220727.Method_2"/>
+    <fullyQualifiedTypeName name="questionpool.AllStudy"/>
 </qualifiedTypeNameHistroy>

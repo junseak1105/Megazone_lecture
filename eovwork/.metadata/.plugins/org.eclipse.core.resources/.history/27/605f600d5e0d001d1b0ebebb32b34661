@@ -1,0 +1,11 @@
+package j20220727;
+
+public class Array_4 {
+	public static void main(String[] args) {
+		char[] charvalue = new char[3];
+		charvalue[0]='일';
+		charvalue[1]='빌';
+		charvalue[2]='김';
+		
+	}
+}
