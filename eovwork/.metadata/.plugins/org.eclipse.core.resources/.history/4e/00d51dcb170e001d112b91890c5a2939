@@ -1,0 +1,12 @@
+package j20220728;
+
+import java.lang.String;
+
+public class Object_1 {
+	public static void main(String[] args) {
+		final String name = "김재훈";
+		name="아무개";
+		System.out.println(name);
+		
+	}
+}

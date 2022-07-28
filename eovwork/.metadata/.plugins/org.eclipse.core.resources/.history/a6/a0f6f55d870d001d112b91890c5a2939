@@ -1,0 +1,44 @@
+package j20220727;
+
+public class Contr_1 {
+	String name;
+	int age;
+	String address;
+	String email;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public Contr_1() {
+		System.out.println("기본생성자");
+	}
+	public static void main(String[] args) {
+		Contr_1 con = new Contr_1();
+		con.setName("김재훈");
+		con.setAge(26);
+		con.setAddress("해운대");
+		con.setEmail("june1105@naver.com");
+		
+	}
+}

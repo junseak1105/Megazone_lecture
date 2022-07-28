@@ -1,0 +1,23 @@
+package j20220728;
+
+//같은거면 extends
+//다른거면 implements
+
+public class Gwang_1 implements Mega_1{
+	
+	@Override
+	public void List() {
+		 System.out.println("5반 있음");
+
+	}
+	@Override
+	public void Print() {
+		System.out.println("광안대교 1반");
+		
+	}
+	public static void main(String[] args) {
+		Gwang_1 gw = new Gwang_1();
+		gw.Print();
+		gw.List();
+	}
+}
