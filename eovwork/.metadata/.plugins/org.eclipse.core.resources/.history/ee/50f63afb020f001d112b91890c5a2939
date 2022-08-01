@@ -1,0 +1,30 @@
+package j20220729;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Hashtable;
+import java.util.StringTokenizer;
+public class Hash_4 {
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader buffer =new BufferedReader(new InputStreamReader(System.in));
+		Hashtable table = new Hashtable();
+		
+		String str = buffer.readLine();
+		System.out.println("이름 나이 주소 입력(/로 구분)");
+		StringTokenizer token = new StringTokenizer(str,"/");
+		while(token.hasMoreElements()) {
+			String temp = (String)token.nextElement();
+			System.out.println(temp);
+			table.put("이름", (String)token.nextElement());
+			table.put("나이", Integer.parseInt((String)token.nextElement()));
+			table.put("주소", (String)token.nextElement());
+		}
+		for (int i = 0; i < table.size(); i++) {
+			System.out.println(table.get(i)); 
+		}
+		
+		
+		
+	}
+}

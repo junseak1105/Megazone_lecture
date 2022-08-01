@@ -1,0 +1,7 @@
+package j20220801.mega;
+
+public class IceCream_Gugu implements Icecream{
+	IceCreamExecute(){
+		System.out.println("구구");
+	}
+}

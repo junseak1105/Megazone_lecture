@@ -1,0 +1,5 @@
+package parent_child;
+
+public abstract class Icecream_Factory {
+
+}

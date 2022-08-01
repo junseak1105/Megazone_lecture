@@ -1,0 +1,44 @@
+package questionpool;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Hashtable;
+import java.util.StringTokenizer;
+
+import common.CommonHome;
+
+public class Home_1 extends CommonHome {
+	public Home_1() {
+		// TODO Auto-generated constructor stub
+	}
+	public Home_1(String name, int age, String address) {
+		this.setName(name);
+		this.setAge(age);
+		this.setAddress(address);
+	}
+	
+	public String Input() throws IOException {
+		BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+		String str = buffer.readLine();
+		return str;
+	}
+	public Home_1 Tokenize(String str) {
+		StringTokenizer token = new StringTokenizer(str,"/");
+		String name = token.nextToken();
+		int age = Integer.parseInt(token.nextToken());
+		String address = token.nextToken();
+		Home_1 hm = new Home_1(name,age,address);
+		System.out.println(hm.getName()+""+hm.getAge());
+		return hm;
+		
+	}
+	
+	public static void main(String[] args) throws IOException {
+		
+		Home_1 hm = new Home_1();
+		String str = hm.Input();
+		Home_1 hm1 = hm.Tokenize(str);
+//		Hashtable hash = new Hashtable(1);
+		
+	}
+}

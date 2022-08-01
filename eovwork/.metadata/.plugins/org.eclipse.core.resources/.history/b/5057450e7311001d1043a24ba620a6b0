@@ -1,0 +1,43 @@
+package j20220801.mega2;
+
+import java.util.ArrayList;
+
+public class Mega_Deal_1 {
+
+	public static void main(String[] args) {
+//		Gwang_1 gw1 = new Gwang_1();
+//		gw1.Room();
+//		Gwang_2 gw2 = new Gwang_2();
+//		gw2.Room();
+//		Gwang_3 gw3 = new Gwang_3();
+//		gw3.Room();
+//		Gwang_4 gw4 = new Gwang_4();
+//		gw4.Room();
+//		Gwang_5 gw5 = new Gwang_5();
+//		gw5.Room();
+		
+		//5:50분까지 1~5반 자동 출력
+		
+		Mega2 me1 = new Gwang_1();
+		Mega2 me2 = new Gwang_2();
+		Mega2 me3 = new Gwang_3();
+		Mega2 me4 = new Gwang_4();
+		Mega2 me5 = new Gwang_5();
+		
+		ArrayList list = new ArrayList();
+		list.add(me1);
+		list.add(me2);
+		list.add(me3);
+		list.add(me4);
+		list.add(me5);
+		
+		String arr[] = {"j20220801.mega2.Gwang_1","j20220801.mega2.Gwang_2","j20220801.mega2.Gwang_3","j20220801.mega2.Gwang_4","j20220801.mega2.Gwang_5"};
+		;
+		for (int i = 0; i < list.size(); i++) {
+			Mega2 mecommon = (Mega2)list.get(i);
+			System.out.println(mecommon);
+			
+		}
+		
+	}
+}

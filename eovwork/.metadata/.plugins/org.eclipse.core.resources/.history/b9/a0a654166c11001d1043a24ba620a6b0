@@ -1,0 +1,9 @@
+package j20220801.mega;
+
+public interface Icecream {
+	public void Gugu();
+
+	public void World();
+
+	public void Bibi();
+}

@@ -1,0 +1,15 @@
+package j20220801;
+
+public class NumberFormatException {
+
+	public static void main(String[] args) {
+		try {
+			int intvalue = Integer.parseInt("abc");
+			intvalue+=10;
+			System.out.println(intvalue);
+			
+		} catch (NumberFormatException_1 e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,25 @@
+package j20220729;
+
+import java.util.ArrayList;
+
+public class List_1 {
+
+	public static void main(String[] args) {
+		
+		//<E>: element를 받을 준비가 됐다.
+		//ArrayList array = new ArrayList<E>();
+		/*
+		 * list: index 0
+		 * add: 0부터 시작, 0부터 값 저장
+		 * 
+		*/
+		ArrayList array = new ArrayList();
+		array.add(0, 1);
+		array.add(1, 1);
+		array.add(2, 1);
+		array.add(3, 1);
+		array.add(4, 1);
+		
+		
+	}
+}

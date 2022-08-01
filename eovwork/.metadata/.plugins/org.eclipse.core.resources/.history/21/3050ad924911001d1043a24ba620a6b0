@@ -1,0 +1,38 @@
+package parent_child;
+
+public class Gwang_1 implements Mega_1 {
+
+	@Override
+	public void Gwang_1() {
+		System.out.println("광안대교 1반");
+
+	}
+
+	@Override
+	public void Gwang_2() {
+		System.out.println("광안대교 2반");
+
+	}
+
+	@Override
+	public void Gwang_3() {
+		System.out.println("광안대교 3반");
+
+	}
+
+	@Override
+	public void Gwang_4() {
+		System.out.println("광안대교 4반");
+
+	}
+
+	@Override
+	public void Gwang_5() {
+		System.out.println("광안대교 5반");
+
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,8 @@
+package j20220801.mega;
+
+public class IceCreamDealer {
+	public static void main(String[] args) {
+		IceCream_Gugu gu = new IceCream_Gugu();
+		gu.IceCreamExecute();
+	}
+}
