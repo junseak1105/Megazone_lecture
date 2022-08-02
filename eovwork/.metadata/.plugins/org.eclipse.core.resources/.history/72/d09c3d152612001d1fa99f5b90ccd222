@@ -1,0 +1,64 @@
+package j20220802.awt;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Coupang_2 extends Frame implements ActionListener {
+	public TextField userid = new TextField();
+	public TextField userpw = new TextField();
+	public TextField userpw_chk = new TextField();
+	public TextField username = new TextField();
+	public TextField phone = new TextField();
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+
+	}
+
+	public Coupang_2() {
+		setLayout(new GridLayout(5,2));
+		Label l_userid = new Label("아이디(이메일)");
+		Label l_userpw = new Label("비밀번호");
+		Label l_userpw_chk = new Label("비밀번호확인");
+		Label l_username = new Label("이름");
+		Label l_phone = new Label("전화번호");
+		Label l_regi = new Label("");
+		
+		Button btn = new Button("Register");
+		
+		add(l_userid);
+		add(userid);
+		add(l_userpw);
+		add(userpw);
+		add(l_userpw_chk);
+		add(userpw_chk);
+		add(l_username);
+		add(username);
+		add(l_phone);
+		add(phone);
+		add(l_regi);
+		add(btn);
+		
+		
+		
+		addWindowListener(new WindowEvent());
+		setSize(300, 300);
+		setVisible(true);
+	}
+
+	public class WindowEvent extends commonWindowEvent {
+		@Override
+		public void windowClosing(java.awt.event.WindowEvent e) {
+			super.windowClosing(e);
+		}
+	}
+
+	public static void main(String[] args) {
+		Coupang_2 cou = new Coupang_2();
+	}
+}

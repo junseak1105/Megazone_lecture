@@ -1,0 +1,86 @@
+package j20220802.awt;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Coupang_2 extends Frame implements ActionListener {
+	public TextField userid = new TextField();
+	public TextField userpw = new TextField();
+	public TextField userpw_chk = new TextField();
+	public TextField username = new TextField();
+	public TextField phone = new TextField();
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String str= e.getActionCommand();
+		if(str.equals("Register")) {
+			//아이디 중복 검증
+			if(userid.getText().equals("test@naver.com")) {
+				System.out.println("아이디 중복됨");
+			}else {
+				if(!userpw.getText().equals(userpw_chk)) {
+					System.out.println("비밀번호 일치안함");
+				}else {
+					if(!username.getText().equals("")) {
+						System.out.println("이름을 입력해 주세요.");
+					}else{
+						if(!phone.getText().equals("")) {
+							System.out.println("전화번호를 입력해주세요.");
+						}else {
+							System.out.println("회원가입 성공!");
+						}
+					}
+				}
+			}
+		}
+		
+	}
+
+	public Coupang_2() {
+		setLayout(new GridLayout(5,1));
+		Label l_userid = new Label("email");
+		Label l_userpw = new Label("password");
+		Label l_userpw_chk = new Label("password chk");
+		Label l_username = new Label("name");
+		Label l_phone = new Label("phone");
+		Label l_regi = new Label("");
+		
+		Button btn = new Button("Register");
+		btn.addActionListener(this);
+		
+		add(l_userid);
+		add(userid);
+		add(l_userpw);
+		add(userpw);
+		add(l_userpw_chk);
+		add(userpw_chk);
+		add(l_username);
+		add(username);
+		add(l_phone);
+		add(phone);
+		add(l_regi);
+		add(btn);
+		
+		
+		
+		addWindowListener(new WindowEvent());
+		setSize(300, 1000);
+		setVisible(true);
+	}
+
+	public class WindowEvent extends commonWindowEvent {
+		@Override
+		public void windowClosing(java.awt.event.WindowEvent e) {
+			super.windowClosing(e);
+		}
+	}
+
+	public static void main(String[] args) {
+		Coupang_2 cou = new Coupang_2();
+	}
+}

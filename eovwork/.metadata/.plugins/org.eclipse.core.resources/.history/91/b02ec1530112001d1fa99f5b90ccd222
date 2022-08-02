@@ -1,0 +1,17 @@
+package j20220802.awt;
+
+import java.awt.Frame;
+
+public class Awt_2 {
+	public Awt_2() {
+		Frame fr = new Frame("Banner");
+		fr.setSize(200,200);
+		fr.setVisible(true);
+		
+	}
+	public static void main(String[] args) {
+		
+		Awt_2 awt = new Awt_2();
+		
+	}
+}

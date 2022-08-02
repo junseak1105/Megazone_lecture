@@ -1,0 +1,28 @@
+package questionpool;
+
+import java.awt.Frame;
+	
+
+public class Gwang_Home extends Frame{
+
+	String name;
+	Int age;
+	String address;
+	
+	public Gwang_Home() {
+		
+	}
+	
+	public class WindowEvent extends commonWindow{
+		@Override
+		public void windowClosing(java.awt.event.WindowEvent e) {
+			// TODO Auto-generated method stub
+			super.windowClosing(e);
+		}
+	}
+	
+	public static void main(String[] args) {
+		Gwang_Home gh = new Gwang_Home();
+	}
+	
+}

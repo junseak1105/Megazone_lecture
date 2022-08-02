@@ -1,0 +1,14 @@
+package j20220802.awt;
+
+import java.awt.Frame;
+
+public class Awt_4 extends Frame{
+
+	public Awt_4() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		Awt_4 awt = new Awt_4();
+	}
+}

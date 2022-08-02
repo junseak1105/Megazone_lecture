@@ -1,0 +1,21 @@
+package j20220802.awt;
+
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Frame;
+
+public class Border_1 extends Frame{
+
+	public Border_1() {
+		setLayout(new BorderLayout());
+		add(new Button("north"),BorderLayout.NORTH);
+		add(new Button("west"),BorderLayout.WEST);
+		add(new Button("east"),BorderLayout.EAST);
+		add(new Button("south"),BorderLayout.SOUTH);
+		add(new Button("center"),BorderLayout.CENTER);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

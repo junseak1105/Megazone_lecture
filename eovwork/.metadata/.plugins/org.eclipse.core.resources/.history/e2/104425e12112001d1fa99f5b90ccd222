@@ -1,0 +1,30 @@
+package j20220802.awt;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.TextField;
+
+public class Coupang_1 extends Frame {
+
+	public Coupang_1() {
+		setLayout(new GridLayout(3,2));
+		Label loginal =new Label("userid");
+		TextField logintext =new TextField(15);
+		
+		Label passwd =new Label("passwd");
+		TextField passwdtext =new TextField(15);
+		
+		Button loginbu = new Button("login");
+		Button inputloginbu = new Button("inputlogin");
+		
+		setSize(200,120);
+		setVisible(true);
+		addWindowListener(new CommonAwtEvent());
+	}
+	
+	public static void main(String[] args) {
+		Coupang_1 coupang = new Coupang_1();
+	}
+}

@@ -1,0 +1,12 @@
+package j20220802.awt;
+
+public class Grid_1 extends Frame{
+	public Grid_1() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void WindowEvent 
+	public static void main(String[] args) {
+		Grid_1 grid = new Grid_1();
+	}
+}

@@ -1,0 +1,14 @@
+package j20220802.awt;
+
+import java.awt.Frame;
+
+public class Coupang_2 extends Frame{
+
+	public Coupang_2() {
+		setSize(300,300);
+		setVisible(true);
+	}
+	public static void main(String[] args) {
+		Coupang_2 cou = new Coupang_2();
+	}
+}
