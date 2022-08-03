@@ -1,0 +1,16 @@
+package j20220803;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class FileWriter_1 {
+
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		String path = "C:\\project\\share\\questionfile\\test1.txt";
+		PrintWriter writer = new PrintWriter(path);
+		
+		writer.write("YEEEEEEEEEEEEEEE");
+	}
+}

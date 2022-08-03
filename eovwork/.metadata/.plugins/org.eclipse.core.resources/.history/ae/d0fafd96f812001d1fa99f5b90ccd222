@@ -1,0 +1,31 @@
+package Awt_Post;
+
+import java.awt.Button;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Navbar extends Frame{
+	
+	Panel navbar = new Panel();
+	
+	
+	public Navbar() {
+		Button btn_post = new Button("Post");
+		Button btn_login = new Button("Login");
+		Button btn_regi = new Button("Register");
+		btn_post.addActionListener(new Actions());
+		btn_post.addActionListener(new Actions());
+		btn_post.addActionListener(new Actions());
+		
+		
+		navbar.setVisible(true);
+		navbar.setLayout(new FlowLayout());
+		navbar.add(btn_post);
+		navbar.add(btn_login);
+		navbar.add(btn_regi);
+	}
+	
+}

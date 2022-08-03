@@ -1,0 +1,45 @@
+package Awt_Post;
+
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class MainFrame extends Frame implements ActionListener {
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String strvalue = e.getActionCommand();
+		if (strvalue.equals("Post")) {
+			
+		}
+		if (strvalue.equals("Login")) {
+			System.out.println("test");
+			new LoginFrame();
+		}
+		if (strvalue.equals("Register")) {
+
+		}
+
+	}
+
+	public MainFrame() {
+		setSize(1000, 1000);
+		setVisible(true);
+		addWindowListener(new commonWindow());
+		setLayout(new BorderLayout());
+		Navbar Nav = new Navbar();
+
+		add(Nav.navbar, BorderLayout.NORTH);
+
+	}
+
+	public static void main(String[] args) {
+		MainFrame mf = new MainFrame();
+
+	}
+}

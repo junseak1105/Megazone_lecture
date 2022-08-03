@@ -1,0 +1,69 @@
+package questionpool;
+
+import java.awt.BorderLayout;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ArrayList;
+
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
+public class Gmarket_1 extends Frame implements ActionListener {
+
+	public JTextField IDbox = new JTextField(15);
+	public JTextField PWbox = new JTextField(15);
+	public Label result = new Label();
+
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String strvalue = e.getActionCommand();
+		if(strvalue.equals("Login")) {
+			Login_CHK();
+		}
+
+	}
+	public void Login_CHK() {
+		if(IDbox.getText() == "testid" && PWbox.getText() == "1234") {
+			result.setText("loginSuccess");
+		}
+	}
+
+	public Gmarket_1() {
+		setSize(300, 300);
+		setVisible(true);
+		addWindowListener(new commonWindow());
+		
+		//west panel
+		
+		Panel p_west = new Panel();
+		p_west.setLayout(new GridLayout(2,2));
+		Label l_ID = new Label("ID");
+		Label l_PW = new Label("PW");
+		p_west.add(l_ID);
+		p_west.add(IDbox);
+		p_west.add(l_PW);
+		p_west.add(PWbox);
+		
+		//east panel
+		
+		Panel p_east = new Panel();
+		JButton btn1 = new JButton("Login");
+		btn1.addActionListener(this);
+		p_east.add(btn1);
+
+		//main
+		setLayout(new BorderLayout());
+		add(p_west,BorderLayout.WEST);
+		add(p_east,BorderLayout.EAST);
+		add(result,BorderLayout.SOUTH);
+	}
+
+	public static void main(String[] args) {
+		Gmarket_1 gm = new Gmarket_1();
+	}
+}

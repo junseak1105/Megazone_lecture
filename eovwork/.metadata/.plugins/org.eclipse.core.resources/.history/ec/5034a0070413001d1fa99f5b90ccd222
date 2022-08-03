@@ -1,0 +1,28 @@
+package j20220803;
+
+import java.io.File;
+import java.io.IOException;
+
+public class File_3 {
+	public static void main(String[] args) throws IOException {
+		String path = "C:\\project\\share\\questionfile";
+		File file = new File(path);
+		
+		file.mkdir();
+		
+		String filetxt[] = {"test1.txt","test2.txt","test3.txt","test4.txt","test5.txt"};
+		
+		for (int i = 0; i < filetxt.length; i++) {
+			File filenew = new File(path+"\\"+filetxt[0]);
+			filenew.createNewFile();
+		}
+		
+		String directory[] = {"dir1","dir2","dir3","dir4","dir5"};
+		
+		for (int i = 0; i < directory.length; i++) {
+			File filemkdir = new File(path+"\\"+directory[i]);
+			filemkdir.mkdir();
+		}
+		
+	}
+}

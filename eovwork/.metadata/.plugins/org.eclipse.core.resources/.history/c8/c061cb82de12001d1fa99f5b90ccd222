@@ -1,0 +1,28 @@
+package questionpool;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class File_2 {
+	public static void main(String[] args) throws IOException {
+		String path = "C:/project/share/questionfile";
+		
+//		File file = new File(path+"/home.txt");
+//		file.createNewFile();
+//		
+		
+		try {
+			BufferedReader buffer = new BufferedReader(new FileReader(path));
+			String inputname = "";
+			while((inputname =buffer.readLine())!=null) {
+				System.out.println(inputname);
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

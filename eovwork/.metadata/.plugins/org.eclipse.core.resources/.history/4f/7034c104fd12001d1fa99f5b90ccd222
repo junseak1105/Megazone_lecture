@@ -1,0 +1,31 @@
+package Awt_Post;
+
+import java.awt.Frame;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Controller extends Frame implements ActionListener {
+	MainFrame mf = new MainFrame();
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String strvalue = e.getActionCommand();
+		if (strvalue.equals("Post")) {
+		System.out.println(strvalue);
+		}
+		if (strvalue.equals("Login")) {
+			this.setVisible(false);
+			new LoginFrame();
+		}
+		if (strvalue.equals("Register")) {
+			System.out.println(strvalue);
+		}
+	}
+	public Controller() {
+		mf.setVisible(true);
+		
+	}
+	
+	public static void main(String[] args) {
+		Controller control = new Controller();
+	}
+}

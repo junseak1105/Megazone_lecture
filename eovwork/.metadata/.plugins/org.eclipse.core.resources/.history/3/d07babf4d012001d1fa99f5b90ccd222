@@ -1,0 +1,14 @@
+package j20220803;
+
+public class Static_1 {
+
+	public String name;
+	
+	public static void main(String[] args) {
+		
+		Static_1 static_1 = new Static_1();
+		
+		System.out.println(static_1);
+		
+	}
+}

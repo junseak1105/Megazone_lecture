@@ -1,0 +1,23 @@
+package j20220803;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileReader_1 {
+
+	public static void main(String[] args) {
+		String path = "C:\\project\\share\\file1\\test.txt";
+		// FileReader:파일에 대한 모든 읽기
+		try {
+			BufferedReader buffer = new BufferedReader(new FileReader(path));
+			buffer.readLine();
+			
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+}
