@@ -1,0 +1,5 @@
+package questionpool.Phone;
+
+public class SKT extends Phone_new{
+
+}

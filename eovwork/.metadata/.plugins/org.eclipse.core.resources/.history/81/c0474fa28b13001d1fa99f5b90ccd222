@@ -1,0 +1,15 @@
+package j20220804;
+
+import java.util.Properties;
+
+public class Properties_2 {
+
+	
+	public static void main(String[] args) {
+		String path = "C:\\project\\share\\questionfile";
+		Properties pro = new Properties();
+		
+		
+		
+	}
+}

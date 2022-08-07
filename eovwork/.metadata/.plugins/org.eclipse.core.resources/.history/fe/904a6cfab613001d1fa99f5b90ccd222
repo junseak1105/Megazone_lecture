@@ -1,0 +1,21 @@
+package j20220804.mega;
+
+public abstract class MegaFactory implements BaseMega{
+	
+	public String choicroom;
+	
+	public String getChoicroom() {
+		return choiceroom;
+		
+	}
+	public void setChoiceroom(String choiceroom) {
+		this.choicroom = choiceroom;
+	}
+	@Override
+	@Override
+	public void Room() {
+		System.out.println(get.ChoiceRoom());
+	}
+	
+	
+}

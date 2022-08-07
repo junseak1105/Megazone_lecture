@@ -1,0 +1,10 @@
+package j20220805.phone;
+
+public interface Lg extends BaseNewsAgency {
+
+	@Override
+	default void NewsAgency(String newsagency) {
+		// TODO Auto-generated method stub
+
+	}
+}

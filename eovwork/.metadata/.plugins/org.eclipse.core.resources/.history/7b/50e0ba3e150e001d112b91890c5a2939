@@ -1,7 +1,0 @@
-package j20220728;
-
-public class Crt_2 {
-	public static void main(String[] args) {
-		System.out.println("캡쳐");
-	}
-}

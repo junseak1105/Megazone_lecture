@@ -1,0 +1,7 @@
+package j20220805.book;
+
+public class Phone_Deal {
+	public String name = "대리";
+	public String jumin1 = "123456";
+	public String jumin2 = "455666";
+}

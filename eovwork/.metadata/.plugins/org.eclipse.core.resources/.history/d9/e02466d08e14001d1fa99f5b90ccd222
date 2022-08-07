@@ -1,0 +1,5 @@
+package j20220805.Board;
+
+public abstract class Board_abstract implements Board_Interface{
+
+}

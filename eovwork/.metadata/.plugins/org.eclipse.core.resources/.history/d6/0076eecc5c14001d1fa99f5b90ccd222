@@ -1,0 +1,14 @@
+package questionpool.Phone;
+
+import java.util.ArrayList;
+
+public class SKT extends Phone_new{
+	
+	ArrayList client_list = new ArrayList();
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

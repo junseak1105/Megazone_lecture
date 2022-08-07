@@ -1,0 +1,5 @@
+package questionpool.Phone;
+
+public interface SKT_function {
+	public void Create_New();
+}

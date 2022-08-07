@@ -1,0 +1,5 @@
+package questionpool.Phone;
+
+public interface Phone_new {
+	public void Create_New();
+}

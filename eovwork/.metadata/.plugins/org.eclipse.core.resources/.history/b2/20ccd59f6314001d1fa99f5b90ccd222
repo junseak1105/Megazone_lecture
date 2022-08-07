@@ -1,0 +1,9 @@
+package questionpool.Phone;
+
+public interface SKT_function {
+	public void Choose_place(int num);
+	public void Create_New_Online();
+	public void Create_New_Offline();
+	public void ShowList();
+	public void EditFile(String str);
+}

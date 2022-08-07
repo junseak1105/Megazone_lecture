@@ -1,0 +1,9 @@
+package j20220805.Mega_2;
+
+public abstract class An_1 implements An{
+	@Override
+	public void Print() {
+		// TODO Auto-generated method stub
+		
+	}
+}

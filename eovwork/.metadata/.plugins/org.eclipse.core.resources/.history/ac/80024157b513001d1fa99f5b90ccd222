@@ -1,0 +1,18 @@
+package common;
+
+public class Method_2 extends CommonHome{
+	
+	public Method_2(String name, int age, String address) {
+		super(name,age,address);
+	}
+	
+	public static void main(String[] args) {
+
+		Method_2 me = new Method_2("김재훈", 26, "부산");
+		
+		
+		
+	}
+	
+	
+}

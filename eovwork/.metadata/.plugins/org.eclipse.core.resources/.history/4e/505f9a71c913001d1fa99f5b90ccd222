@@ -1,0 +1,8 @@
+package Post;
+
+public interface Auth {
+	
+	public void Change_status(String userid, String status);
+	
+	
+}

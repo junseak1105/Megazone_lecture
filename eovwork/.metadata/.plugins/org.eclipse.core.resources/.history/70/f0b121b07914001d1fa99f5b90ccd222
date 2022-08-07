@@ -1,0 +1,42 @@
+package j20220805.Mega_2;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Enumeration;
+import java.util.Properties;
+
+public class Mega_2 {
+
+	public void Print() {
+		
+	}
+	
+	public Mega_2() {
+		
+	}
+	
+	
+	public static void main(String[] args) throws Exception {
+		String path = "/project/share/file1/mega_2.txt";
+
+		File file = new File(path);
+		System.out.println(file.getPath());
+		Properties pro = new Properties();
+		pro.load(new FileInputStream(file));
+		Enumeration en = pro.keys();
+
+		String str[] = new String[pro.size()];
+		int i = 0;
+		//Enumeration 에서 키값 or value 추출
+		while(en.hasMoreElements()) {
+			str[i]=(String)en.nextElement();
+			i++;
+		}
+
+		System.out.println("이름:"+pro.getProperty("name")); //키값을 통해 value 추출
+
+	}
+	
+}

@@ -1,0 +1,26 @@
+package j20220804;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Properties_2 {
+
+	
+	public static void main(String[] args) throws IOException {
+		String path = "C:\\project\\share\\questionfile";
+		
+		BufferedReader buffer = new BufferedReader(new FileReader(path+"\\common.properties"));
+		String inputname = "";
+		while((inputname = buffer.readLine()) !=null) {
+			System.out.println(inputname);
+		}
+		
+		Properties pro = new Properties();
+		
+		
+		
+	}
+}

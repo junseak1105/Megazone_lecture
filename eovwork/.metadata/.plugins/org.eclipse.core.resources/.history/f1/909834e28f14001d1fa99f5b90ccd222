@@ -1,0 +1,8 @@
+package j20220805.Board;
+
+import java.util.Hashtable;
+
+public class Board {
+	Hashtable board;
+	
+}

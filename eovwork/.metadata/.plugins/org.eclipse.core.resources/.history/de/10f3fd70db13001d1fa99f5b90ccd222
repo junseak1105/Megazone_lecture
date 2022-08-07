@@ -1,0 +1,40 @@
+package Post;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class GetPost {
+
+	private String Get_filename(String str) {
+		String filename = "";
+		if (str.equals("공지사항")) {
+			return "\\postInform.txt";
+		}
+		if (str.equals("자유게시판")) {
+			return "\\postFree.txt";
+		}
+		if (str.equals("Gwnag_1게시판")) {
+			return "\\postGwang_1.txt";
+		}
+		return filename;
+		
+	}
+
+	public void Get_by_page(String str, int page) throws Exception {
+		String path = "C:\\project\\share\\post";
+		String filename = Get_filename(str);
+		BufferedReader buffer = new BufferedReader(new FileReader(path+filename));
+		String inputname = "";
+		while ((inputname = buffer.readLine()) != null) { // 읽다가 공백 나오면 멈춤
+			System.out.println(inputname);
+		}
+	}
+
+	public GetPost() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

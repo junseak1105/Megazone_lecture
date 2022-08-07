@@ -1,0 +1,13 @@
+package questionpool.Phone;
+
+public class Jay_SKT {
+	String phonecompanyname;
+	String name;
+	String jumin1;
+	String jumin2;
+	String email;
+	int age;
+	String address;
+	
+	
+}

@@ -1,0 +1,9 @@
+package j20220805.Mega_2;
+
+public abstract class An_Factory implements An {
+	@Override
+	public void Print(String str) {
+		System.out.println(str);
+
+	}
+}

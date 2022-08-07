@@ -1,0 +1,17 @@
+package Post;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Hashtable;
+
+public class Post_content {
+	Hashtable hash = new Hashtable();
+
+	public Post_content(String title,String author,String date,int hit,String content) {
+		hash.put("title", title);
+		hash.put("author", author);
+		hash.put("date", date);
+		hash.put("hit", hit);
+		hash.put("content", content);
+	}
+}

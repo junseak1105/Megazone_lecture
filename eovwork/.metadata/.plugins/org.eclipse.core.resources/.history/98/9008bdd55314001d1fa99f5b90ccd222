@@ -1,0 +1,10 @@
+package j20220805.book;
+
+public class MyPhone extends Phone_Deal{
+
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}

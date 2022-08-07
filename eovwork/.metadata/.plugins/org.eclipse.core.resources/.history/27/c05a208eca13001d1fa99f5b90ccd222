@@ -1,0 +1,26 @@
+package Post;
+
+public class User {
+	String userID;
+	String userName;
+	int age;
+	String Email;
+	boolean status;
+	
+	
+	public boolean isStatus() {
+		return status;
+	}
+
+	public void setStatus(boolean status) {
+		this.status = status;
+	}
+
+
+	public User(String userID,String userName,	int age,String Email) {
+		this.userID = userID;
+		this.userName = userName;
+		this.age = age;
+		this.Email = Email;
+	}
+}

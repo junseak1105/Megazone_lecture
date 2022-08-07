@@ -1,0 +1,108 @@
+package questionpool;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
+
+public class InputLogin_1 extends Frame implements ActionListener {
+	public static String path = "C:\\project\\share\\questionfile\\home";
+	String filename = "\\jay.properties";
+	public static File file = new File(path);
+
+	// 회원가입 필드
+	public static TextField r_id = new TextField();
+	public static TextField r_name = new TextField();
+	public static TextField r_pw1 = new TextField();
+	public static TextField r_pw2 = new TextField();
+	public static TextField r_email = new TextField();
+	public static TextField r_address1 = new TextField();
+	public static TextField r_address2 = new TextField();
+	public static TextField r_phone = new TextField();
+	
+	
+
+	// 로그인 필드
+	public static TextField l_id = new TextField();
+	public static TextField l_pw = new TextField();
+	
+	//결과 라벨
+	public static Label result = new Label("");
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		String strvalue = e.getActionCommand();
+		if (strvalue.equals("Register")) {
+
+		}
+		if (strvalue.equals("Login")) {
+
+		}
+
+	}
+
+	public InputLogin_1() {
+		setSize(1000, 1000);
+		setVisible(true);
+		setLayout(new GridLayout(12, 2));
+		addWindowListener(new commonWindow());
+
+		Button btn_regi = new Button("Register");
+		Button btn_login = new Button("Login");
+		
+		btn_regi.addActionListener(this);
+		btn_login.addActionListener(this);
+		
+		//회원가입
+		add(new Label());
+		add(new Label("Register"));
+		
+		add(new Label("ID"));
+		add(r_id);
+		add(new Label("Name"));
+		add(r_name);
+		add(new Label("PW"));
+		add(r_pw1);
+		add(new Label("PW_chk"));
+		add(r_pw2);
+		add(new Label("Email"));
+		add(r_email);
+		add(new Label("Address1"));
+		add(r_address1);
+		add(new Label("Address2"));
+		add(r_address2);
+		add(new Label("Phone"));
+		add(r_phone);
+		
+		add(new Label());
+		add(new Label("Login"));
+		
+		add(new Label("ID"));
+		add(l_id);
+		add(new Label("PW"));
+		add(l_pw);
+
+	}
+
+	public void File_exist_chk() throws IOException {
+		boolean choice = false;
+		if (file.createNewFile()) { // 없으면
+			choice = true;
+		} else {// 있으면
+			choice = false;
+		}
+
+	}
+
+	public static void main(String[] args) throws IOException {
+		InputLogin_1 in = new InputLogin_1();
+		in.File_exist_chk();
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package Post;
+
+public class User {
+	String userID;
+	String userName;
+	int age;
+	String Email;
+	
+	public User(String userID,String userName,	int age,String Email) {
+		this.userID = userID;
+		this.userName = userName;
+		this.age = age;
+		this.Email = Email;
+	}
+}

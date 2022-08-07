@@ -1,0 +1,21 @@
+package Post;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class GetPost {
+
+	private void Get_by_page(String str, int page) {
+		
+	}
+	
+	public GetPost() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args) {
+		GetPost gp = new GetPost();
+	}
+}

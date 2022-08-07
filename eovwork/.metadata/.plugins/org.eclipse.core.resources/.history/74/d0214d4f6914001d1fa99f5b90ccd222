@@ -1,0 +1,10 @@
+package j20220805.phone;
+
+public abstract class NewAgencyFactory implements Skt,Lg,Kt{
+	
+	@Override
+	public void NewsAgency(String newsagency) {
+		// TODO Auto-generated method stub
+		
+	}
+}

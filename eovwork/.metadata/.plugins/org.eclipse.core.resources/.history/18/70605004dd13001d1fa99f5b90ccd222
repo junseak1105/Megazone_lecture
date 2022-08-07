@@ -1,0 +1,19 @@
+package Post;
+
+import java.util.Date;
+
+public class Post_content {
+	String title;
+	String author;
+	Date date;
+	int hit;
+	String content;
+
+	public Post_content(String title,String author,int hit,String content) {
+		this.author =author;
+		this.content =content;
+		this.date = new Date();
+		this.title = title;
+		this.hit = hit;
+	}
+}

@@ -1,0 +1,23 @@
+package j20220804;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class PrintWriter_1 {
+
+	
+	public static void main(String[] args) throws IOException {
+		String path = "/projects/share/questionfile/common.properties";
+		
+		
+		File file = new File(path);
+		if(!file.createNewFile()) {
+			System.out.println("없음");
+		}
+		
+		PrintWriter write = new PrintWriter(file);
+		
+	}
+}

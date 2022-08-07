@@ -1,7 +1,0 @@
-package j20220726;
-
-public class Var_2 {
-	public void main(String args[]) {
-		System.out.println("출력");
-	}
-}

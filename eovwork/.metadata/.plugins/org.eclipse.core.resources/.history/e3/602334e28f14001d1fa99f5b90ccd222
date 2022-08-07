@@ -1,0 +1,25 @@
+package j20220805.Board;
+
+public abstract class Board_abstract implements Board_Interface {
+
+	@Override
+	public void View() {
+	}
+
+	@Override
+	public void Write() {
+	}
+
+	@Override
+	public void Delete() {
+	}
+
+	@Override
+	public void BoardList() {
+	}
+
+	@Override
+	public void BoardView() {
+	}
+
+}
