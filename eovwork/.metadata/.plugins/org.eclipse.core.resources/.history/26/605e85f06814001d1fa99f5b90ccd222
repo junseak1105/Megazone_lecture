@@ -1,9 +1,0 @@
-package j20220805.phone;
-
-public interface Kt extends BaseNewsAgency {
-	@Override
-	default void NewsAgency(String newsagency) {
-		// TODO Auto-generated method stub
-
-	}
-}

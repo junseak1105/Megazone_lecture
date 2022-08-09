@@ -1,8 +1,0 @@
-package j20220805.Mega_2;
-
-public abstract class An_1 extends An_Factory{
-	@Override
-	public void Print(String str) {
-		super.Print("1반");
-	}
-}

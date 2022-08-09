@@ -1,7 +1,0 @@
-package j20220805.Mega_2;
-
-public abstract class An_1 extends An_Factory{
-	public An_1() {
-		super.Print("1반");
-	}
-}

@@ -1,5 +1,0 @@
-package j20220805.phone;
-
-public interface Skt extends BaseNewsAgency {
-
-}

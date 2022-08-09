@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function WindowLoad(){
+	
+}
+
+function Login(){
+	
+	var frm = document.javascriptfrm;
+	if((frm.userid.value=="testid")&&(frm.passwd.value=="testpw")){
+		alert("로그인 성공");
+	}else{
+		alert("로그인 실패");
+	}
+}
+
+</script>
+</head>
+<body onload="WindowLoad()">
+
+<form action="" name="javascriptfrm">
+<input type="text" name="userid"/>
+<input type="password" name="userpw" />
+<input type="button" onclick="Login()" value="Login" />
+
+</form>
+</body>
+</html>
+

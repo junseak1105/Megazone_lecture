@@ -1,7 +1,0 @@
-package j20220804.mega;
-
-public interface BaseMega {
-
-	void Room();
-	
-}

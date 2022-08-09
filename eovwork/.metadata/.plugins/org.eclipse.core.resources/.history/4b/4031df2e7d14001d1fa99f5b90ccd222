@@ -1,8 +1,0 @@
-package j20220805.Mega_2;
-
-public abstract class An_3 implements An{
-	@Override
-	public void Print() {
-		System.out.println("3반");	
-	}
-}

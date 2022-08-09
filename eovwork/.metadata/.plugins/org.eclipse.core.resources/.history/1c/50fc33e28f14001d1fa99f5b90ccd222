@@ -1,9 +1,0 @@
-package j20220805.Board;
-
-public interface Board_Interface {
-	public void View();
-	public void Write();
-	public void Delete();
-	public void BoardList();
-	public void BoardView();
-}

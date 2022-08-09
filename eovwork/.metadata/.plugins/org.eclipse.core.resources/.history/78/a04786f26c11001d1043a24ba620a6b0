@@ -1,7 +1,0 @@
-package j20220801.mega;
-
-public class IceCream_World implements Icecream{
-	IceCreamExecute(){
-		System.out.println("월드");
-	}
-}

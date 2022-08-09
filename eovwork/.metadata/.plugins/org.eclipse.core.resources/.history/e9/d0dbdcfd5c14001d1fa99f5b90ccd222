@@ -1,6 +1,0 @@
-package questionpool.Phone;
-
-public interface SKT_function {
-	public void Create_New_Online();
-	public void Create_New_Offline();
-}

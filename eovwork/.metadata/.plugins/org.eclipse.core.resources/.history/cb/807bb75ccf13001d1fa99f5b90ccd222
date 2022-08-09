@@ -1,7 +1,0 @@
-package Post;
-
-public interface posts {
-	public void ShowPostList();
-	public void DeletePost();
-	public void WritePost();
-}

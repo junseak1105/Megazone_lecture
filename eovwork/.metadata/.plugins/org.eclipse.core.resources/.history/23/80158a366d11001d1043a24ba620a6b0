@@ -1,8 +1,0 @@
-package j20220801.mega;
-
-public class Instance_1 {
-	public static void main(String[] args) {
-		Class.forName("j20220801.mega.Instance_1").newInstance();	
-	}
-	
-}

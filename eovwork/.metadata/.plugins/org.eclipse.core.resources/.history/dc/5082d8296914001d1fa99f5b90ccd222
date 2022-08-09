@@ -1,5 +1,0 @@
-package j20220805.phone;
-
-public abstract class NewAgencyFactory {
-
-}

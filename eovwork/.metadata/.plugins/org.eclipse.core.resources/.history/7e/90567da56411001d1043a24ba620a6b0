@@ -1,7 +1,0 @@
-package j20220801.mega;
-
-import common.CommonHome;
-
-public class Gwang_5 extends CommonHome{
-
-}

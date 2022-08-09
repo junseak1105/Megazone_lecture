@@ -1,7 +1,0 @@
-package Post;
-
-public interface posts {
-	public void ShowPostList(String str);
-	public void NextPost();
-	public void PrevPost();
-}

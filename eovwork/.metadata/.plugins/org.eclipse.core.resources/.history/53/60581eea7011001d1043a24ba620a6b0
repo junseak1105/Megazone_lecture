@@ -1,7 +1,0 @@
-package j20220801.mega2;
-
-public class Gwang_4 {
-	public void Room() {
-		System.out.println("4반");
-	}
-}
