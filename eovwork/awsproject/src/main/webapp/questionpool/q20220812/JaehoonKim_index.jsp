@@ -13,7 +13,7 @@ public ArrayList GetList(){
 }
 %>
 <%
-for(int i = 0; i<5;i++){
+for(int i = 0; i<3;i++){
 	BoardBean bean = new BoardBean();
 	bean.setNumber(i+1);
 	bean.setTitle("제목"+(i+1));
@@ -32,7 +32,7 @@ for(int i = 0; i<5;i++){
 </head>
 <body>
 	<!--  제목 작성자	작성일	조회	좋아요-->
-	<table style="width: 100%">
+	<table border ="1" style="width: 100%">
 		<tr>
 			<th>number</th>
 			<th>제목</th>

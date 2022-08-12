@@ -7,10 +7,10 @@
     "outline": {
       
     },
-    "jshint": {
+    "jscs": {
       
     },
-    "jscs": {
+    "jshint": {
       
     },
     "browser-extension": {
