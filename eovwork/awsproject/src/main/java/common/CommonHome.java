@@ -5,7 +5,21 @@ public class CommonHome {
 		private String name;
 		private int age;
 		private String address;
+		private String email;
+		private String passwd;
 		
+		public String getEmail() {
+			return email;
+		}
+		public void setEmail(String email) {
+			this.email = email;
+		}
+		public String getPasswd() {
+			return passwd;
+		}
+		public void setPasswd(String passwd) {
+			this.passwd = passwd;
+		}
 		public String getName() {
 			return name;
 		}
@@ -30,6 +44,7 @@ public class CommonHome {
 			this.age = age;
 			this.address = address;
 		}
+		
 //		public static void main(String[] args) {
 //			CommonHome comm = new CommonHome();
 //			
