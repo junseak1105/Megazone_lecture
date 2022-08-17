@@ -61,7 +61,6 @@ public class FileManipulate {
 			System.out.println("존재하지않는 경로입니다.");
 			path = "/project";
 		}
-		
 	}
 	
 	private void Write_File() throws Exception {

@@ -45,5 +45,19 @@ public class Mega_Deal_1 {
 //			me.ChoiceRoom();
 //		}
 		
+		
+		/*
+		 * 
+		 * Mega interface method:public void droom(); 
+		 * Mega extends Gwang_1 
+		 * Mega extends Gwang_2 
+		 * class:Gwang_1() 
+		 * method:public void droom() 
+		 * class:Gwang_2() 
+		 * method:public void droom() 
+		 * Mega mega=new Gwang_1(); 
+		 * Mega mega2=new Gwang_2(); 
+		 * for 문을 이용해서 메소드 room() 을출력하는 코드를 작성하시오
+		 */
 	}
 }
