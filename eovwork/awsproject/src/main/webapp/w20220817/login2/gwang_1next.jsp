@@ -13,6 +13,9 @@
 Gwang1Bean bean = new Gwang1Bean(userid,passwd);
 bean.getList().add(bean);
 %>
+<%
+for(int i=0;i<bean.getList().size()
+%>
 
 </body>
 </html>
