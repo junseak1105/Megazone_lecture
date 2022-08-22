@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body onload="Javascript1()">
+	<input type="button" value="JavascriptLession_4" onclick="JavascriptLession_4()">
+	<form action="">
+		<div id="divid">
+		</div>
+		<div class="divclass">
+		</div>
+	</form>
+</body>
+</html>
+
+<script>
+	function Javascript1() {
+		// var max=10;
+		// var result=0;
+		// for (var i = 0; i <= max; i++) {
+		// 	result+=i;
+		// 	console.log(i);
+		// }
+		// console.log(i);
+	}
+
+	function JavascriptLession_4(){
+		var max=10;
+		var init=0;
+		var even=0;
+		var odd=0;
+		var divid = document.getElementById("divid");
+		var divclass = document.getElementsByClassName("divclass");
+		while(++init<=max){
+			if((init!=3)||(init!=6)||(init!=9)){
+				if(init%2==0){
+					even+=init;
+				}else{
+					odd+=init;
+				}
+			}
+		}	
+		divid.innerHTML="짝수합"+even+"홀수합"+odd;
+		divclass[0].innerText = '홀수합 '+ odd;
+		console.log("짝수합"+even);
+		console.log("홀수합"+odd);
+		alert("짝수합"+even+"홀수합"+odd);
+	}
+</script>

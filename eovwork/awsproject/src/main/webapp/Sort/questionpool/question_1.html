@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="Quiz()">
+    <input type="button" value="연산1" onclick="Pick(arr1)">
+    <input type="button" value="연산2" onclick="Pick(arr2)">
+    <input type="button" value="연산3" onclick="Pick(arr3)">
+    <div id="even"></div>
+    <div id="odd"></div>
+</body>
+</html>
+
+<script>
+
+var arr1 = new Array(11);
+var arr2=[0,1,2,3,4,5,6,7,8,9,10];
+var arr3=[];
+
+function Pick(arr){
+    var even=0;
+    var odd=0;
+    for(var i=0;i<arr.length;i++){
+        if((arr[i]%3==0) || arr[i]==0 || arr[i]==10){
+            continue;
+        }else{
+            if(arr[i]%2!=0){
+                odd+=arr[i];
+            }
+            if(arr[i]%2==0){
+                even+=arr[i];
+            }
+            
+        }
+    }
+    document.getElementById("even").innerHTML="짝수합:"+even;
+    document.getElementById("odd").innerHTML="홀수합:"+odd;
+
+}
+
+function Quiz(){
+    for(var i=0;i<11;i++){
+        arr1[i]=i;
+        arr3[i]=i;
+    }
+
+}
+
+</script>
