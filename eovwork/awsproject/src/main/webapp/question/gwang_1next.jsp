@@ -1,7 +1,7 @@
 <%@ page import="util.CommonUtil" %>
-<%@ page import="j20220822.dao.Gwang_1Dao" %>
+<%@ page import="Sort.j20220822.dao.Gwang_1Dao" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="j20220822.bean.Gwang_1Bean" %><%--
+<%@ page import="Sort.j20220822.bean.Gwang_1Bean" %><%--
   Created by IntelliJ IDEA.
   User: junse
   Date: 2022-08-22

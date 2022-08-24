@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file="/common/common2.jsp" %>   
+<%@ include file="/Sort/common/common2.jsp" %>
 
 <!DOCTYPE html>
 <html>
