@@ -1,4 +1,4 @@
-<%@page import="common.util.CommonUtil"%>
+<%@page import="Sort.common.util.CommonUtil"%>
 <%@page import="common.GwangBean"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>

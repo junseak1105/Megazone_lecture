@@ -1,6 +1,6 @@
 package Sort.j20220819;
 
-import common.BaseCommand;
+import Sort.common.BaseCommand;
 
 import java.sql.*;
 import java.util.ArrayList;
