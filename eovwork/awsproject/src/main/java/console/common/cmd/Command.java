@@ -6,6 +6,5 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public interface Command {
-
-	void doExecute(Map reqTray, HttpServletRequest request, HttpServletResponse response);
+	public void doExecute(Map reqTray, HttpServletRequest request, HttpServletResponse response);
 }

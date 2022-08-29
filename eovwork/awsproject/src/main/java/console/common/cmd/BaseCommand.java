@@ -3,6 +3,7 @@ package console.common.cmd;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
@@ -12,6 +13,7 @@ public abstract class BaseCommand implements Command{
 
 	private Connection connection = null;
 	private String nextPage = null;
+	public List list1;
 
 
 	protected Connection getmysqlConnection() {
@@ -73,7 +75,7 @@ public abstract class BaseCommand implements Command{
 	public abstract void doExecute(Map reqTray, HttpServletRequest request, HttpServletResponse response);
 
 
-	protected void setNextPage(String nextPageObj) {
+	public void setNextPage(String nextPageObj) {
 		nextPage = nextPageObj;
 	}
 

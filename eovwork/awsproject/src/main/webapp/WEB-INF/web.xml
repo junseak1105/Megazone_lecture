@@ -1,34 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app>
-  <servlet>
-    <servlet-name>Diablo3Controller</servlet-name>
-    <display-name>Diablo3Controller</display-name>
-    <description></description>
-    <servlet-class>console.common.servlet.Diablo3BoardController</servlet-class>
-  </servlet>
 
-  <servlet-mapping>
-    <servlet-name>Diablo3Controller</servlet-name>
-    <url-pattern>/diablo3.do</url-pattern>
-  </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloLoginController</servlet-name>
+        <display-name>DiabloLoginController</display-name>
+        <description></description>
+        <servlet-class>console.common.servlet.DiabloLoginController</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>DiabloLoginController</servlet-name>
+        <url-pattern>/diablologin.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloIndexController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloIndexController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloIndexController</servlet-name>
+        <url-pattern>/diabloindex.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloCharacterController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloCharacterController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloCharacterController</servlet-name>
+        <url-pattern>/diablocharacter.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloGuideController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloGuideController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloGuideController</servlet-name>
+        <url-pattern>/diablogaurd.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloItemController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloItemController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloItemController</servlet-name>
+        <url-pattern>/diabloitem.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloJobController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloJobController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloJobController</servlet-name>
+        <url-pattern>/diablojob.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloMakeGemController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloMakeGemController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloMakeGemController</servlet-name>
+        <url-pattern>/diablomakegem.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloSkillCalController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloSkillCalController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloSkillCalController</servlet-name>
+        <url-pattern>/diabloskillcal.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DiabloSkillDocController</servlet-name>
+        <servlet-class>console.common.servlet.DiabloSkillDocController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiabloSkillDocController</servlet-name>
+        <url-pattern>/diabloskilldoc.do</url-pattern>
+    </servlet-mapping>
 
-  <servlet>
-    <servlet-name>Diablo3LoginController</servlet-name>
-    <display-name>Diablo3LoginController</display-name>
-    <description></description>
-    <servlet-class>console.common.servlet.Diablo3LoginController</servlet-class>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>Diablo3LoginController</servlet-name>
-    <url-pattern>/diablo3login.do</url-pattern>
-  </servlet-mapping>
-
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-  </welcome-file-list>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>

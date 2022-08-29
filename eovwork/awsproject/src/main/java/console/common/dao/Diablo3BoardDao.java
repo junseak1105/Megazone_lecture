@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import console.common.bean.DiabloBean;
 import console.common.util.CommonUtil;
 import console.common.bean.Diablo3Bean;
 
@@ -52,9 +53,9 @@ public class Diablo3BoardDao {
         System.out.println("sql : " + query.toString());
         boolean login_chk = false;
         while(rs.next()) {
-            Diablo3Bean freebean = new Diablo3Bean(rs.getString("idx"), rs.getString("boardsubject"), rs.getString("userid"), rs.getString("boardcurrentdate"), rs.getString("email"), rs.getString("boardcount"), rs.getString("boardlike"));
-            list.add(freebean);
-            init = 0;
+//            DiabloBean freebean = new DiabloBean(rs.getString("idx"), rs.getString("boardsubject"), rs.getString("userid"), rs.getString("boardcurrentdate"), rs.getString("email"), rs.getString("boardcount"), rs.getString("boardlike"));
+//            list.add(freebean);
+//            init = 0;
         }
 
         return list;

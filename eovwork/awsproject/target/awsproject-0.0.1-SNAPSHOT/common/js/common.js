@@ -10,6 +10,6 @@ function CommonLogin(form){
         return;
     }
     form.method="post";
-    form.action="/Gwang_1Servlet";
+    form.action="/diabloindex.do";
     form.submit();
 }
