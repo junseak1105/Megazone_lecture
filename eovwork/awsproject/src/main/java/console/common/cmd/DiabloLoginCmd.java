@@ -1,48 +1,43 @@
 package console.common.cmd;
 
-import console.common.dao.DiabloLoginDao;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
 
-public class DiabloLoginCmd extends BaseCommand{
+import console.common.dao.DiabloIndexDao;
+
+//command: 업무에 관한 모든 명령 
+//dao :업무수행
 
 
+
+
+
+public class DiabloLoginCmd  extends BaseCommand{
+	
 	public DiabloLoginCmd() {
-		//모든 페이지 관리
 		setNextPage("/diablo/diabloindex.jsp");
 	}
-
-
 	@Override
-	public void doExecute(Map map, HttpServletRequest request, HttpServletResponse response) {
-		DiabloLoginDao dao = new DiabloLoginDao();
-		Boolean login_chk = false;
+	public void doExecute(HttpServletRequest request, HttpServletResponse response, Map map) {
+		
+		
+		DiabloIndexDao dao=new DiabloIndexDao();
+		
 		try {
-			list1=dao.IsLogin(getOracleConnection(),map);
-//			if(dao.IsLogin(getOracleConnection(), reqTray)){
-//				//로그인 성공 시
-//				System.out.println("로그인 성공");
-//				setNextPage("/diablo3.do");
-//			}else{
-//				System.out.println("로그인 실패");
-//				setNextPage("/diablo/diablologin.jsp");
-//			}
-		} catch (Exception e) {
+		list1=	dao.IsLogin(getOracleConnection(), map);
+		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}finally {
+				request.setAttribute("list1", list1);
+		
+				
+				
 		}
-
+		
 	}
-
-
-
-
-
-
-
-
-
-
 }

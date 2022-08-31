@@ -1,59 +1,98 @@
 package console.common.dao;
 
-import console.common.bean.Diablo3Bean;
-import console.common.bean.DiabloBean;
-
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class DiabloIndexDao {
+import console.common.bean.DiabloIndexBean;
+import console.common.bean.DiabloLoginBean;
+import console.common.cmd.BaseDao;
 
-    public List list1 = new ArrayList();
+public class DiabloIndexDao extends BaseDao {
+	public List list1;
 
+	public List IsLogin(Connection conn, Map map) throws SQLException {
 
-    public List Diablo3BoardList(Connection conn, Map key) throws Exception {
+		StringBuffer query = new StringBuffer();
+		query.append("SELECT 												\n");
+		query.append("USERID,                                               \n");
+		query.append("PASSWD                                          \n");
+		query.append("FROM DIABLOLOGIN                           \n");
 
-        Statement stat = conn.createStatement();
+		if (!(get(map.get("userid")).equals("") || get(map.get("userid")) == null)) {
+			query.append("WHERE USERID= " + Qutter(1, get(map.get("userid"))) + "   \n");
+		}
 
+		if (!(get(map.get("passwd")).equals("") || get(map.get("passwd")) == null)) {
+			query.append("AND  PASSWD= " + Qutter(1, get(map.get("passwd"))) + "  \n");
+		}
 
-        StringBuffer query = new StringBuffer();
+		System.out.println("sql:" + query.toString());
+		Statement stat = conn.createStatement();
 
-        query.append("SELECT        \n");
-        query.append("homename      \n");
-        query.append(",boardname    \n");
-        query.append(",boardlink    \n");
-        query.append(",menuname     \n");
-        query.append(",menulink     \n");
-        query.append(",userid       \n");
-        query.append("FROM DIABLOINDEX         \n");
+		ResultSet rs = stat.executeQuery(query.toString());
+		int init = 0;
+		list1 = new ArrayList();
+		while (rs.next()) {
 
+			DiabloLoginBean bean = new DiabloLoginBean(rs.getString(++init), rs.getString(++init));
+			init = 0;
+			list1.add(bean);
+		}
+		return list1;
 
-        ResultSet rs = stat.executeQuery(query.toString());
-        int init = 0;
+	}
 
-        System.out.println("sql : " + query.toString());
-        boolean login_chk = false;
-        while (rs.next()) {
-//            DiabloBean freebean = new DiabloBean(
-//                    rs.getString("homename"),
-//                    rs.getString("boardname"),
-//                    rs.getString("boardlink"),
-//                    rs.getString("menuname"),
-//                    rs.getString("menulink"),
-//                    rs.getString("userid")
-//            );
-//            list1.add(freebean);
-            init = 0;
-        }
+	
+	
+	public List  DiabloIndexList(Connection conn,Map key) throws SQLException {
+		
+		
+		StringBuffer query=new StringBuffer();
+		
+		query.append("SELECT													\n");
+		query.append("BOARDNAME                                           \n");
+		query.append(",BOARDLINK                                             \n");
+		query.append(",MENUNAME                                            \n");
+		query.append(",MENULINK                                              \n");
+		query.append(",USERID                                                   \n");
+		query.append(",HOMENAME                                            \n");
+		query.append("FROM DIABLOINDEX                                  \n");
 
-        return list1;
-
-    }
-
-
+		
+		
+		System.out.println("sql:"+query.toString());
+		
+		Statement stat=conn.createStatement();
+		ResultSet rs=stat.executeQuery(query.toString());
+		LinkedList list=new LinkedList();
+		
+		while(rs.next()) {
+			
+			DiabloIndexBean bean=new DiabloIndexBean(rs.getString(++init),rs.getString(++init));
+			list.add(bean);
+			//setInit(0);
+			init=0;
+		
+		
+		}
+		
+		
+		
+		
+		return list1;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }
-

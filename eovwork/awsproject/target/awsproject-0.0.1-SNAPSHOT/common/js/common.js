@@ -10,6 +10,6 @@ function CommonLogin(form){
         return;
     }
     form.method="post";
-    form.action="/diabloindex.do";
+    form.action="/diablologin2.do?cmd=diablologin2";
     form.submit();
 }

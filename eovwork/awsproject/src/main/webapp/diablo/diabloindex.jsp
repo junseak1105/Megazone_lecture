@@ -1,49 +1,60 @@
+<%@ page import="console.common.bean.DiabloIndexBean" %>
+<%@ page import="java.util.StringTokenizer" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
-<%--<%@ include file = "diablo3common.jsp" %>--%>
+         pageEncoding="UTF-8" %>
+<%@ include file="common.jsp" %>
 
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
 </head>
 <body>
 
+<%
+    DiabloIndexBean temp = (DiabloIndexBean) list.get(0);
+%>
+<table style="stylewidth:100%;" border="1" height="900">
+    <tr>
+        <td colspan="2"></td>
+        <td><%=request.getAttribute("userid")%>님 환영합니다</td>
+    </tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:60%" valign="top">
+            <table height="200" border="1">
+                <tr>
+                    <td colspan="9" height="100"><img style="width: 100%;height: 100%" src="/common/images/header.png"
+                                                      alt="noimg"></td>
+                </tr>
+                <tr>
+                    <%
 
-<table style="stylewidth:100%;"border="1" height="900">
-  <tr>
-    <td style="width:20%"></td>
-    <td style="width:60%" valign="top">
-      <table height="200" border="1">
-        <tr>
-          <td colspan="9" height ="100"><img style="width: 100%;height: 100%" src="/common/images/header.png" alt="noimg"></td>
-        </tr>
-        <tr>
-          <td><a href="">1</a></td>
-          <td><a href="">2</a></td>
-          <td><a href="">3</a></td>
-          <td><a href="">4</a></td>
-          <td><a href="">5</a></td>
-          <td><a href="">6</a></td>
-          <td><a href="">7</a></td>
-          <td><a href="">8</a></td>
-          <td><a href="">922</a></td>
-        </tr>
-      </table>
-    </td>
-    <td style="width:20%"></td>
-  </tr>
-  <tr>
-    <td style="width:20%"></td>
-    <td style="width:60%"></td>
-    <td style="width:20%"></td>
-  </tr>
-  <tr>
-    <td style="width:20%"></td>
-    <td style="width:60%"></td>
-    <td style="width:20%"></td>
-  </tr>
+                        StringTokenizer token_name = new StringTokenizer(temp.getMenuname(), ":");
+                        StringTokenizer token_link = new StringTokenizer(temp.getMenulink(), ":");
+                        while (token_name.hasMoreTokens()) {
+                    %>
+                    <td><a href="<%=token_link.nextToken()%>"><%=token_name.nextToken()%></a></td>
+                    <%
+                        }
+                    %>
+
+                </tr>
+            </table>
+        </td>
+        <td style="width:20%"></td>
+    </tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:60%"></td>
+        <td style="width:20%"></td>
+    </tr>
+    <tr>
+        <td style="width:20%"></td>
+        <td style="width:60%"></td>
+        <td style="width:20%"></td>
+    </tr>
 </table>
 
 <%--<table border="1">--%>
