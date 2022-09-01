@@ -1,13 +1,13 @@
-package com.megazone.lecture;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LectureApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LectureApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
