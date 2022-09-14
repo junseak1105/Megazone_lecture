@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prompt/isNaN</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<script>
+  var inData =prompt("숫자를 입력하세요");
+
+  if(inData==null){
+      console.log("사용자가 입력을 취소하셨습니다.");
+  } else{
+      if(!isNaN(inData)){
+          if(inData==""){
+              console.log("입력 값이 없습니다.")
+          }else if(inData%3==0){
+              console.log("3의 배수입니다.");
+          }else{
+              console.log("3의 배수가 아닙니다");
+          }
+      }else{
+          console.log("문자가 입력되었습니다.");
+      }
+  }
+</script>

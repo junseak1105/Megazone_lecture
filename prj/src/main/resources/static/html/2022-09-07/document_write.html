@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="kr">
+<style type="text/css">
+    span{
+        display: inline-block;
+        border: 1px solid #cccccc;
+        background-color: #efefef;
+        padding: 10px; width: 50px;
+        margin: 2px;
+        text-align: center;
+    }
+    table,td{
+        border-collapse: collapse;
+        border: 1px solid #cccccc;
+        text-align: center;
+    }
+
+    p{
+        border: 1px solid #cccccc;
+        background: #ffffff;
+        padding: 10px; width: 80px;
+        margin: 2px;
+        text-align: center;
+        font-weight: bold;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>document.write</title>
+</head>
+<body>
+    <script>
+        tot = 0;
+        num =10;
+        for (let i = 1; i <= num; i++) {
+            document.write("<span>"+(tot+=i)+"</span>")
+            if(i==num/2){
+                document.write("<br>");
+            }
+        }
+
+        dan = 5;//prompt("구구단 몇단?");
+        document.write("<p style='background: #efefef'>"+dan+"단</p>");
+        for (let i = 1; i <= 9; i++) {
+            document.write("<p>"+(i*dan)+" = "+dan+" x "+i+"</p>")
+        }
+
+        document.write("<table>");
+        for (let i = 2; i <= 9; i++) {
+            document.write("<tr><td>"+i+"단</td>");
+            for (let j = 1; j <= 9 ; j++) {
+                document.write("<td>"+i+" x "+j+"="+(i*j)+"</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+
+        // tot = 0;
+        // for (let i = 1; i <= 10; i++) {
+        //     tot+=i;
+        //     document.write("<p>"+tot+"</p>")
+        // }
+    </script>
+</body>
+</html>
