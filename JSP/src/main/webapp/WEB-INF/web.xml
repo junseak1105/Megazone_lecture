@@ -7,4 +7,43 @@
         <welcome-file>index.html</welcome-file>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <!-- ==================== Servlet Mapping ==================== -->
+
+<!--    <servlet>-->
+<!--        <servlet-name>annMap</servlet-name>-->
+<!--        <servlet-class>annotationMapping.MappingEx</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>annMap</servlet-name>-->
+<!--        <url-pattern>/amp</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+    <!-- ====================JSP Mapping=====================  -->
+    <servlet>
+        <servlet-name>error</servlet-name>
+        <jsp-file>/error.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>error</servlet-name>
+        <url-pattern>/error</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>jspMap</servlet-name>
+        <jsp-file>/defaultCode.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jspMap</servlet-name>
+        <url-pattern>/jmp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Main</servlet-name>
+        <jsp-file>/main.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Main</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+    <!-- ====================JSP Mapping=====================  -->
 </web-app>
