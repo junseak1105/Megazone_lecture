@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var newDate = new Date();
+        var nowYear = newDate.getFullYear();
+        var nowMonth = newDate.getMonth();
+        var nowDay = newDate.getDate();
+        var new_Date = new Date(nowYear,nowMonth,1);
+        var weeknum = new_Date.getDay();
+        var prtday =1;
+        var lastDate = new Date(nowYear,nowMonth+1, 0);
+        var lastDay = lastDate.getDate();
+
+        document.write("<table><tbody>");
+        while(prtday <= lastDay){
+            document.write("<tr>");
+            for(var i =0; i< 7; i++){
+                document.write("<td style=\"border:1px solid black;\">");
+                if((i<weeknum && prtday==1) || prtday > lastDay) document.write("&nbsp");
+                else document.write(prtday++);
+            }
+            document.write("</tr>");
+        }
+        document.write("</tbody></table>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="awsproject:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54fb2d7d-448e-4422-868f-ea0c9fa70d5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/DiabloIndexCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/DiabloIndexCmd2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/DiabloLoginCmd2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/DiabloWebPageCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/TestCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/dao/DiabloDao2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/console/common/servlet/ConsoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/commandHandler.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/commandHandlerURI.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/js/DaumInsert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/daum/daumboardindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/daum/daumboardwrite.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/diablo/diabloindex2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/diablo/diablologin2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/question/diabloindex_2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/question/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/.idea/jsp23-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/eclipse/appB/appB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/eclipse/board/board.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/eclipse/board/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/eclipse/chap18/chap18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/eclipse/chap18/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/eclipse/chap19/chap19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp23-master/eclipse/chap20/chap20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../servlet/src/main/java/hello/servlet/web/frontcontroller/Board/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../servlet/src/main/java/hello/servlet/web/frontcontroller/Board/bean/BoardBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../servlet/src/main/java/hello/servlet/web/frontcontroller/Board/controller/BoardInsertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../servlet/src/main/java/hello/servlet/web/frontcontroller/Board/controller/BoardListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../servlet/src/main/java/hello/servlet/web/frontcontroller/Board/controller/DBConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../servlet/src/main/java/hello/servlet/web/frontcontroller/Board/controller/MemberSaveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../servlet/src/main/java/hello/servlet/web/frontcontroller/Board/repository/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.vmware.vfabric.ide.eclipse.tcserver.configurator.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.svn.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.frameworks.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.dashboard.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.aop.core/.state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/bootstrap/css/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/bootstrap/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/flexbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/fontcustom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/highlight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/homepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/markdown-content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/panes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/projects.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/tools.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/css/typography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/font-custom/fontcustom.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/blog_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/bug_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/comparison_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/compass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/compass_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/extension.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/extension_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/forum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/forum_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/guides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/guides_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/logo_bigleaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/logo_spring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/logo_sts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/new_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/overlay-incoming.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/spring-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/springdocs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/img/springdocs_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/js/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/js/filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/js/guide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/common/js/modernizer.flexbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1660288321097/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.update/-1223306788.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Awt_Post/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Awt_Post/LoginFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Awt_Post/MainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Awt_Post/Navbar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Awt_Post/commonWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/IceCream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/CommandManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/GetPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/Navigator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/PostPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/PostPageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/Post_content.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/UserState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/Post/posts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/BaseCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/CommonHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/JDBC_mysql_conn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/JDBC_oracle_conn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/Method_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/Method_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/commonWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/common/util/CommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220725/Var_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/DoWhile_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/For_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/For_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/If_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/If_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/If_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/InnerFor_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/Opt_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/Switch_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/Var_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/Var_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/Var_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/Var_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220726/While_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Array_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Array_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Array_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Array_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Array_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Array_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Contr_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/For_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/GlobalVal_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/GlobalVal_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/If_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/If_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/If_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Method_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Method_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Switch_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Var_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/Var_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220727/While_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Crt_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Ctr_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/FirstNameSearch_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Gwang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Gwang_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/InputOut_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Mega_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Object_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Object_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Object_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/String_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Token_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/Token_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220728/TypeCasting_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/Hash_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/Hash_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/Hash_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/Hash_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/Hash_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/Hash_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/Hash_List_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/List_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/List_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/List_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/List_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220729/List_Hash_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/ClassCastException_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/Hash_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/Hash_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/Hash_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/Hash_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/Hash_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/Hash_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/Hash_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/NullPointerException_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/NumberFormatException_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/ThrowsException_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/Gwang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/Gwang_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/Gwang_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/Gwang_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/IceCream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/IceCreamDealer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/IceCream_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/IceCream_BibiBig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/IceCream_Gugu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/IceCream_World.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/Instance_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega/Mega_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega2/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega2/Gwang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega2/Gwang_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega2/Gwang_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega2/Gwang_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega2/Mega2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220801/mega2/Mega_Deal_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/List_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/List_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/AwtText_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Awt_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Awt_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Awt_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Awt_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Awt_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Awt_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Border_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/CommonAwtEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Coupang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Coupang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/Grid_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/NaverAwt_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220802/awt/commonWindowEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/Awt_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/Awt_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/FileReader_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/FileWriter_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/File_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/File_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/File_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/Static_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/Static_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220803/commonWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/PrintWriter_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/Properties_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/Properties_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/RunTime_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/String_arg_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/BaseMega.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/Gwang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/Gwang_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/Gwang_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/Gwang_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/MegaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/Mega_Deal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220804/mega/Mega_Deal2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/BaseBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Board1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/BoardFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Board_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Board_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Mega_2/An.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Mega_2/An_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Mega_2/An_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Mega_2/An_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Mega_2/An_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Mega_2/An_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/Mega_2/Mega_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/book/MyPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/book/Phone_Deal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/BaseNewsAgency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/Kt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/KtDeal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/Lg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/LgDeal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/NewAgencyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/Skt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/SktDeal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/UserPhone1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/UserPhone2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220805/phone/UserPhone3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220811/CommonHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220811/Commongwang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220811/HomeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220811/gwangbean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220812/BoardBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220812/CoupangBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220812/JaehoonKimBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220812/NewsBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220817/bean/Gwang1Bean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220817/bean/LoginBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220817/bean/LoginBean2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220817/dao/LoginDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220817/dao/LoginDao2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220819/CoupangBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220819/CoupangDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220822/application/Main_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220822/bean/CoupangBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220822/bean/Gwang_1Bean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220822/common/ConnectCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220822/dao/BaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220822/dao/CoupangDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220822/dao/Gwang_1Dao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/j20220823/Gwang_1Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/parent_child/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/parent_child/Icecream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/parent_child/Icecream_Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/parent_child/Mega_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/parent_child/Mega_Factory_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/parent_child/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/AllStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Board_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/File_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/For_While_Do_while.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Gmarket_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Gwang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Gwang_Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Gwang_Home_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/HashHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Home_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Home_1_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/If_Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/InputLogin_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/List_Hash_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/List_Question_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Phone/Phone_new.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Phone/SKT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Phone/SKT_Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/Phone/SKT_function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/commonWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/questionpool/static_question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/FileManipulate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/Files_API.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/LoginBufferedReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/LoginProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/Properties_API.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/mega2/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/mega2/Gwang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/mega2/Gwang_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/mega2/Gwang_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/mega2/Gwang_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/mega2/Mega2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/mega2/Mega_Deal_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/megatest/Gwang_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/megatest/Gwang_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/megatest/Mega.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/megatest/Mega_Deal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sort/test1/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Casting_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/app/Token_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/bean/BaseBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/bean/Diablo3Bean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/bean/DiabloBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/bean/DiabloIndexBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/bean/DiabloLoginBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/cmd/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/cmd/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/cmd/DiabloCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/cmd/DiabloLoginCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/common/cmd/DiabloLoginCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/dao/BaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/dao/Diablo3BoardDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/dao/DiabloIndexDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/common/dao/DiabloIndexDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/dao/DiabloLoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/common/dao/DiabloLoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/common/servlet/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloCharacterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloGuideController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloIndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloMakeGemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloSkillCalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/servlet/DiabloSkillDocController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/console/common/util/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/common/util/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/commonlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/commonlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/diablo/diablo3common.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/diablo/common.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/diablo/diabloindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/diablo/diabloindex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Awt_Post/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Awt_Post/LoginFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Awt_Post/MainFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Awt_Post/Navbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Awt_Post/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/IceCream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/CommandManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/GetPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/Navigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/PostPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/PostPageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/Post_content.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/UserState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/Post/posts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/BaseCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/CommonHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/JDBC_mysql_conn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/JDBC_oracle_conn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/Method_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/Method_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/common/util/CommonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220725/Var_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/DoWhile_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/For_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/For_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/If_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/If_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/If_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/InnerFor_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/Opt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/Switch_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/Var_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/Var_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/Var_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/Var_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220726/While_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Array_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Array_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Array_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Array_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Array_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Array_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Contr_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/For_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/GlobalVal_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/GlobalVal_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/If_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/If_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/If_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Method_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Method_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Switch_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Var_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/Var_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220727/While_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Crt_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Ctr_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/FirstNameSearch_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/InputOut_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Mega_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Object_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Object_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Object_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/String_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Token_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/Token_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220728/TypeCasting_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/Hash_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/Hash_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/Hash_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/Hash_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/Hash_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/List_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/List_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/List_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/List_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220729/List_Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/ClassCastException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/Hash_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/Hash_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/Hash_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/Hash_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/NullPointerException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/NumberFormatException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/ThrowsException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega/IceCream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega/IceCreamDealer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega/IceCream_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega/IceCream_BibiBig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega/IceCream_Gugu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega/IceCream_World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega/Instance_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega2/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega2/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega2/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega2/Gwang_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega2/Gwang_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega2/Mega2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220801/mega2/Mega_Deal_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/List_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/List_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/AwtText_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_3$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_4$WindowEvents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_5$ActionEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_5$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Awt_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Border_1$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Border_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/CommonAwtEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Coupang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Coupang_2$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Coupang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Grid_1$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/Grid_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/NaverAwt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220802/awt/commonWindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/Awt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/Awt_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/FileReader_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/FileWriter_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/File_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/File_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/File_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/Static_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/Static_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220803/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/PrintWriter_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/Properties_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/Properties_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/RunTime_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/String_arg_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/BaseMega.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/Gwang_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/Gwang_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/MegaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/Mega_Deal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220804/mega/Mega_Deal2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/BaseBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Board1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/BoardFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Board_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Board_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Mega_2/An.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Mega_2/An_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Mega_2/An_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Mega_2/An_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Mega_2/An_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Mega_2/An_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/Mega_2/Mega_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/book/MyPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/book/Phone_Deal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/BaseNewsAgency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/KtDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/Lg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/LgDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/NewAgencyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/Skt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/SktDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/UserPhone1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/UserPhone2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220805/phone/UserPhone3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220811/CommonHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220811/Commongwang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220811/HomeBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220811/gwangbean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220812/BoardBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220812/CoupangBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220812/JaehoonKimBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220812/NewsBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220817/bean/Gwang1Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220817/bean/LoginBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220817/bean/LoginBean2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220817/dao/LoginDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220817/dao/LoginDao2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220819/CoupangBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220819/CoupangDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220822/application/Main_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220822/bean/CoupangBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220822/bean/Gwang_1Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220822/common/ConnectCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220822/dao/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/j20220822/dao/CoupangDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/parent_child/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/parent_child/Icecream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/parent_child/Icecream_Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/parent_child/Mega_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/parent_child/Mega_Factory_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/parent_child/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/AllStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Board_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/File_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/For_While_Do_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Gmarket_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Home.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Home_1_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/If_Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/InputLogin_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/List_Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/List_Question_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Phone/Phone_new.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Phone/SKT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Phone/SKT_Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/Phone/SKT_function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/questionpool/static_question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/FileManipulate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/Files_API.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/LoginBufferedReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/LoginProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/Properties_API.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/mega2/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/mega2/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/mega2/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/mega2/Gwang_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/mega2/Gwang_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/mega2/Mega2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/mega2/Mega_Deal_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/megatest/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/megatest/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/megatest/Mega.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/megatest/Mega_Deal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/Sort/test1/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/bean/BaseBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/bean/BaseBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/bean/Diablo3Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/bean/Diablo3Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/bean/DiabloIndexBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/bean/DiabloIndexBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/cmd/BaseCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/cmd/BaseCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/cmd/Diablo3LoginCmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/dao/Diablo3BoardDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/dao/Diablo3BoardDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/dao/Diablo3LoginDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/DiabloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/DiabloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/DiabloIndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/DiabloIndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/DiabloLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/classes/console/common/servlet/DiabloLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/common/commonlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/common/commonlogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/common/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/common/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/diablo/diablo3common.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/diablo/diabloindex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/awsproject-0.0.1-SNAPSHOT/diablo/diabloindex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Awt_Post/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Awt_Post/LoginFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Awt_Post/MainFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Awt_Post/Navbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Awt_Post/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/IceCream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/CommandManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/GetPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/Navigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/PostPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/PostPageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/Post_content.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/UserState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/Post/posts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/BaseCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/CommonHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/JDBC_mysql_conn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/JDBC_oracle_conn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/Method_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/Method_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/common/util/CommonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220725/Var_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/DoWhile_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/For_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/For_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/If_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/If_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/If_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/InnerFor_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/Opt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/Switch_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/Var_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/Var_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/Var_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/Var_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220726/While_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Array_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Array_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Array_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Array_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Array_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Array_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Contr_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/For_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/GlobalVal_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/GlobalVal_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/If_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/If_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/If_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Method_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Method_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Switch_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Var_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/Var_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220727/While_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Crt_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Ctr_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/FirstNameSearch_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/InputOut_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Mega_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Object_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Object_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Object_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/String_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Token_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/Token_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220728/TypeCasting_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/Hash_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/Hash_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/Hash_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/Hash_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/Hash_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/List_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/List_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/List_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/List_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220729/List_Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/ClassCastException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/Hash_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/Hash_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/Hash_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/Hash_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/NullPointerException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/NumberFormatException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/ThrowsException_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega/IceCream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega/IceCreamDealer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega/IceCream_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega/IceCream_BibiBig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega/IceCream_Gugu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega/IceCream_World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega/Instance_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega2/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega2/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega2/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega2/Gwang_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega2/Gwang_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega2/Mega2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220801/mega2/Mega_Deal_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/List_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/List_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/AwtText_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_3$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_4$WindowEvents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_5$ActionEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_5$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Awt_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Border_1$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Border_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/CommonAwtEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Coupang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Coupang_2$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Coupang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Grid_1$WindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/Grid_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/NaverAwt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220802/awt/commonWindowEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/Awt_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/Awt_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/FileReader_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/FileWriter_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/File_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/File_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/File_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/Static_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/Static_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220803/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/PrintWriter_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/Properties_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/Properties_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/RunTime_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/String_arg_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/BaseMega.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/Gwang_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/Gwang_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/MegaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/Mega_Deal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220804/mega/Mega_Deal2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/BaseBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Board1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/BoardFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Board_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Board_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Mega_2/An.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Mega_2/An_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Mega_2/An_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Mega_2/An_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Mega_2/An_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Mega_2/An_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/Mega_2/Mega_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/book/MyPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/book/Phone_Deal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/BaseNewsAgency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/KtDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/Lg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/LgDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/NewAgencyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/Skt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/SktDeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/UserPhone1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/UserPhone2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220805/phone/UserPhone3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220811/CommonHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220811/Commongwang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220811/HomeBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220811/gwangbean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220812/BoardBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220812/CoupangBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220812/JaehoonKimBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220812/NewsBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220817/bean/Gwang1Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220817/bean/LoginBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220817/bean/LoginBean2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220817/dao/LoginDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220817/dao/LoginDao2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220819/CoupangBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220819/CoupangDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220822/application/Main_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220822/bean/CoupangBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220822/bean/Gwang_1Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220822/common/ConnectCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220822/dao/BaseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220822/dao/CoupangDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/j20220823/Gwang_1Servlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/parent_child/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/parent_child/Icecream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/parent_child/Icecream_Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/parent_child/Mega_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/parent_child/Mega_Factory_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/parent_child/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/AllStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Board_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/File_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/For_While_Do_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Gmarket_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Home.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Home_1_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/If_Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/InputLogin_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/List_Hash_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/List_Question_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Phone/Phone_new.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Phone/SKT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Phone/SKT_Form.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/Phone/SKT_function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/commonWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/questionpool/static_question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/FileManipulate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/Files_API.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/LoginBufferedReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/LoginProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/Properties_API.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/mega2/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/mega2/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/mega2/Gwang_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/mega2/Gwang_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/mega2/Gwang_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/mega2/Mega2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/mega2/Mega_Deal_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/megatest/Gwang_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/megatest/Gwang_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/megatest/Mega.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/megatest/Mega_Deal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sort/test1/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/app/Token_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/app/Token_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/bean/DiabloIndexBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/bean/DiabloIndexBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/cmd/DiabloLoginCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/cmd/DiabloLoginCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/dao/DiabloIndexDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/dao/DiabloIndexDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/dao/DiabloLoginDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/dao/DiabloLoginDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/servlet/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/servlet/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/servlet/DiabloIndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/servlet/DiabloIndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/console/common/servlet/DiabloLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/console/common/servlet/DiabloLoginController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2E4KiysKVDpwwgVHiQljrguQ3wT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "235a30",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/DEV/Github/junseak1105.github.io"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="awsproject:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c8299682-3c38-42e3-ab15-3cf3f01f0f7a" />
+        <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="1090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64173" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="awsproject:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54fb2d7d-448e-4422-868f-ea0c9fa70d5c" name="Changes" comment="" />
+      <created>1661849548554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661849548554</updated>
+      <workItem from="1661849549876" duration="656000" />
+      <workItem from="1661873004472" duration="4792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

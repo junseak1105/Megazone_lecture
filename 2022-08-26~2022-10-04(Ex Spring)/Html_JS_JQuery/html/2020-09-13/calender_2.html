@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table * {border: 1px solid black;}
+        .notEq{
+            color: #ccc;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <title>Document</title>
+    <script>
+        //=============오늘================
+        var nowDate = new Date();
+        var nowYear = nowDate.getFullYear();
+        var nowMonth = nowDate.getMonth();
+        var nowDay = nowDate.getDate();
+        //=============이전달================
+        var prevDate = new Date(nowYear, nowMonth - 1, 1);
+        var prevMonth = prevDate.getMonth();//이전 달 값 반환
+
+        //=============다음달================
+        var nextDate = new Date(nowYear, nowMonth + 1, 1);
+        var nextMonth = nextDate.getMonth();//다음 달 값 반환
+
+        //=============이번달 1일================
+        nowDate = new Date(nowYear, nowMonth, 1);
+        var weekNum = nowDate.getDay();//이번달 1일의 요일 반환
+        var day = 1 - weekNum;
+
+        //document.write 로 월~일까지 출력
+
+        document.write("<table><tbody>");
+        document.write("<tr><td>일</td><td>월</td><td>화</td><td>수</td><td>목</td><td>금</td><td>토</td></tr>");
+
+        prtMonth = nowMonth;
+        while (prtMonth==nowMonth) {
+            document.write("<tr>");
+            for (let i = 0; i < 7; i++) {
+                prtDate = new Date(nowYear, nowMonth, day);
+                prtMonth = prtDate.getMonth();
+                if (nowMonth == prtMonth) {
+                    document.write("<td>" + prtDate.getDate() + "</td>");
+                } else {
+                    document.write("<td class='notEq'>" + prtDate.getDate() + "</td>");
+                }
+                day++;
+            }
+            document.write("</tr>");
+        }
+        document.write("</tbody></table>");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

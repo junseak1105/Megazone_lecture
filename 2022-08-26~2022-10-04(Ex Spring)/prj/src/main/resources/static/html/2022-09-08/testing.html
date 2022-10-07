@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- import jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- import jquery ui -->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+        table,td{
+            border-collapse: collapse;
+            border: 1px solid #cccccc;
+            text-align: center;
+        }
+        td{
+            width: 80px;
+        }
+    </style>
+
+
+</head>
+<body>
+</body>
+</html>
+<script>
+    //write multiplication table with while loop
+    document.write("<table name = 'gugu'><caption>구구단</caption>");
+    let i = 1;
+
+    while(i<=9){
+        document.write("</tr>");
+        let j = 2;
+        while(j<=9){
+            if (i==1){
+                document.write("<th>"+j+"단</th>");
+            }else{
+                document.write("<td>"+j+" x "+i+"="+(i*j)+"</td>");
+            }
+            j++;
+        }
+        document.write("</tr>");
+        i++;
+    }
+    document.write("</table>");
+
+
+</script>

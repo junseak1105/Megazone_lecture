@@ -1,0 +1,11 @@
+    <Resource
+    	name="jdbc/oracle"
+    	auth="Container"
+    	type="javax.sql.DataSource"
+    	driverClassName="oracle.jdbc.OracleDriver"
+    	url="jdbc:oracle:thin:@61.98.217.46:1521:XE"
+    	username="book_ex"
+    	password="book_ex"
+    	maxActive="50"
+    	maxWait="-1"
+    />

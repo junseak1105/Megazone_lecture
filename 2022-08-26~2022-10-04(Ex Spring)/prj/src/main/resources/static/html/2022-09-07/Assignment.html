@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table,td{
+        border-collapse: collapse;
+        border: 1px solid #cccccc;
+        text-align: center;
+    }
+    td{
+        width: 80px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    document.write("<table><tr>");
+    for (let i = 2; i <= 9; i++) {
+        document.write("<td>"+i+"단</td>");
+    }
+    document.write("</tr>")
+
+    for (let i = 1; i <= 9; i++) {
+        document.write("<tr>");
+        for (let j = 2; j <= 9 ; j++) {
+            document.write("<td>"+j+" x "+i+"="+(i*j)+"</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="test"></div>
+</body>
+</html>
+
+<script>
+    tot = 0;
+    for (var i = 1; i <= 100 ; i++) {
+        if(i%3!=0){
+            continue;
+        }
+        document.getElementById("test").append(i+" ");
+        console.log(i);
+        tot+=i;
+    }
+    console.log(tot);
+    document.getElementById("test").append("총합="+tot);
+
+    //1~10까지 반복하되 continue를 이용해서 홀수의 합만 출력
+</script>

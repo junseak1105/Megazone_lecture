@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+    <servlet>
+        <servlet-name>ControllerUsingURI</servlet-name>
+        <servlet-class>mvc.controller.ControllerUsingURI</servlet-class>
+        <init-param>
+            <param-name>configFile</param-name>
+            <param-value>
+                /WEB-INF/commandHandlerURI.properties
+            </param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>ControllerUsingURI</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ControllerUsingFile</servlet-name>
+        <servlet-class>mvc.controller.ControllerUsingFile</servlet-class>
+        <init-param>
+            <param-name>configFile</param-name>
+            <param-value>/WEB-INF/commandHandler.properties</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ControllerUsingFile</servlet-name>
+        <url-pattern>/controllerUsingFile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SimpleController</servlet-name>
+        <servlet-class>mvc.simple.SimpleController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SimpleController</servlet-name>
+        <url-pattern>/simple</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DaumIndexController</servlet-name>
+        <servlet-class>daum.common.DaumIndexController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DaumIndexController</servlet-name>
+        <url-pattern>/daum.do</url-pattern>
+    </servlet-mapping>
+    
+
+
+    <!--    <servlet>-->
+    <!--        <servlet-name>TestController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.TestController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>TestController</servlet-name>-->
+    <!--        <url-pattern>/test.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloLoginController2</servlet-name>-->
+    <!--        <display-name>DiabloLoginController2</display-name>-->
+    <!--        <description></description>-->
+    <!--        <servlet-class>console.common.servlet.DiabloLoginController2</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloLoginController2</servlet-name>-->
+    <!--        <url-pattern>/diablologin2</url-pattern>-->
+    <!--    </servlet-mapping>-->
+
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloIndexController2</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloIndexController2</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloIndexController2</servlet-name>-->
+    <!--        <url-pattern>/diabloindex2</url-pattern>-->
+    <!--    </servlet-mapping>-->
+
+
+    <!--    <servlet>-->
+    <!--        <servlet-name>Commoncontroller</servlet-name>-->
+    <!--        <display-name>Commoncontroller</display-name>-->
+    <!--        <description></description>-->
+    <!--        <servlet-class>console.common.servlet.CommonController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>Commoncontroller</servlet-name>-->
+    <!--        <url-pattern>/common.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+
+
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloLoginController</servlet-name>-->
+    <!--        <display-name>DiabloLoginController</display-name>-->
+    <!--        <description></description>-->
+    <!--        <servlet-class>console.common.servlet.DiabloLoginController</servlet-class>-->
+    <!--    </servlet>-->
+
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloLoginController</servlet-name>-->
+    <!--        <url-pattern>/diablologin.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloIndexController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloIndexController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloIndexController</servlet-name>-->
+    <!--        <url-pattern>/diabloindex.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloCharacterController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloCharacterController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloCharacterController</servlet-name>-->
+    <!--        <url-pattern>/diablocharacter.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloGuideController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloGuideController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloGuideController</servlet-name>-->
+    <!--        <url-pattern>/diablogaurd.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloItemController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloItemController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloItemController</servlet-name>-->
+    <!--        <url-pattern>/diabloitem.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloJobController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloJobController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloJobController</servlet-name>-->
+    <!--        <url-pattern>/diablojob.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloMakeGemController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloMakeGemController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloMakeGemController</servlet-name>-->
+    <!--        <url-pattern>/diablomakegem.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloSkillCalController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloSkillCalController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloSkillCalController</servlet-name>-->
+    <!--        <url-pattern>/diabloskillcal.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+    <!--    <servlet>-->
+    <!--        <servlet-name>DiabloSkillDocController</servlet-name>-->
+    <!--        <servlet-class>console.common.servlet.DiabloSkillDocController</servlet-class>-->
+    <!--    </servlet>-->
+    <!--    <servlet-mapping>-->
+    <!--        <servlet-name>DiabloSkillDocController</servlet-name>-->
+    <!--        <url-pattern>/diabloskilldoc.do</url-pattern>-->
+    <!--    </servlet-mapping>-->
+
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

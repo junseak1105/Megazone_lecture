@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>게시판 리스트</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../../js/2022-09-13/board.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table td {
+            border: 1px solid #ccc;
+        }
+
+        table th {
+            border: 1px solid #ccc;
+            background-color: #efefef;
+        }
+        .
+    </style>
+</head>
+<body>
+<div id="fnWrite">
+    <form name="fn" method="post" action="" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <th>이름</th>
+                <td><input type="text" name="name" id="name" placeholder="이름을 입력하세요"></td>
+            </tr>
+            <tr>
+                <th>제목</th>
+                <td><input type="text" name="title" id="title" placeholder="제목을 입력하세요"></td>
+            </tr>
+            <tr>
+                <th>작성일</th>
+                <td><input type="text" name="regdate" id="regdate" placeholder="작성일을 입력하세요" readonly></td>
+            </tr>
+            <tr>
+                <th>내용</th>
+                <td><textarea name="content" id="content" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <th>조회수</th>
+                <td><input type="text" name="hit" id="hit" placeholder="조회수를 입력하세요" readonly></td>
+            </tr>
+<!--            <tr>-->
+<!--                <th>admin</th>-->
+<!--                <td><span>del</span></td>-->
+<!--            </tr>-->
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="글쓰기" id="btnSubmit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+<div id="viewArea">
+    <!--make board list-->
+
+
+    <table>
+        <tr>
+            <th><input type="checkbox" name="chk_all"></th>
+            <th>번호</th>
+            <th>이름</th>
+            <th>제목</th>
+            <th>작성일</th>
+            <th>조회수</th>
+            <th>admin</th>
+        </tr>
+    </table>
+    <input type="button" value="remove_checked" name = "remove_chk">
+
+</div>
+게시글 내용 표기
+<div id="viewContent">
+
+</div>
+</body>
+</html>
