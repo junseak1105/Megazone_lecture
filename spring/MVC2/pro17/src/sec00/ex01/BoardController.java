@@ -44,7 +44,6 @@ public class BoardController extends HttpServlet {
 	private void doHandle(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=utf-8");
-
 		int articleNo = 0;
 		switch (request.getParameter("type")) {
 			case "add":
