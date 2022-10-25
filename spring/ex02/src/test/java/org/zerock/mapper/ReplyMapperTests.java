@@ -30,6 +30,12 @@ public class ReplyMapperTests {
 	private ReplyMapper mapper;
 
 	@Test
+	public void testMapper() {
+
+		log.info(mapper);
+	}
+
+	@Test
 	public void testCreate() {
 
 		IntStream.rangeClosed(1, 10).forEach(i -> {
@@ -55,12 +61,6 @@ public class ReplyMapperTests {
 
 		log.info(vo);
 
-	}
-
-	@Test
-	public void testMapper() {
-
-		log.info(mapper);
 	}
 
 	@Test
@@ -96,7 +96,7 @@ public class ReplyMapperTests {
 		replies.forEach(reply -> log.info(reply));
 
 	}
-	
+
 	@Test
 	public void testList2() {
 
@@ -108,6 +108,20 @@ public class ReplyMapperTests {
 		replies.forEach(reply -> log.info(reply));
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	
 	
