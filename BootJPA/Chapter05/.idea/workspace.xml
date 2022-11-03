@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7d7b9dc-29a2-4f77-8475-94d05116f41f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JPA/jpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/jpa/src/main/java/com/rubypaper/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/jpa/src/main/java/com/rubypaper/JPAClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/jpa/src/main/java/com/rubypaper/domain/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot/src_출판사제공/board-spring-boot-starter/src/main/java/com/rubypaper/jdbc/config/BoardAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot/src_출판사제공/board-spring-boot-starter/src/main/java/com/rubypaper/jdbc/config/JDBCConnectionManagerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/main/java/com/rubypaper/config/BoardConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/main/java/com/rubypaper/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/main/java/com/rubypaper/domain/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/main/java/com/rubypaper/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/main/java/com/rubypaper/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/main/java/com/rubypaper/service/LoggingRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/test/java/com/rubypaper/BoardControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springBoot_prac/src/test/java/com/rubypaper/PropertiestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring/ex04/src/test/resources/log4j2.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H1YqdMz29CPvbee0lMbLHgxkVW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Chapter05Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Chapter05" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rubypaper.chapter05.Chapter05Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7d7b9dc-29a2-4f77-8475-94d05116f41f" name="Changes" comment="" />
+      <created>1667454250628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667454250628</updated>
+      <workItem from="1667454256049" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
