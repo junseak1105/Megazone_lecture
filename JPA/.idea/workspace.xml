@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da95797-ab39-4aa2-8cba-f97b98669150" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../springBoot/src_출판사제공/board-spring-boot-starter/src/main/java/com/rubypaper/jdbc/config/BoardAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot/src_출판사제공/board-spring-boot-starter/src/main/java/com/rubypaper/jdbc/config/JDBCConnectionManagerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/main/java/com/rubypaper/config/BoardConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/main/java/com/rubypaper/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/main/java/com/rubypaper/domain/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/main/java/com/rubypaper/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/main/java/com/rubypaper/service/BoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/main/java/com/rubypaper/service/LoggingRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/test/java/com/rubypaper/BoardControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot_prac/src/test/java/com/rubypaper/PropertiestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring/ex04/src/test/resources/log4j2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJPA/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJPA/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJPA/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJPA/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJPA/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/DEV/Github/Megazone_lecture/JPA",
+    "last_opened_file_path": "C:/DEV/Github/Megazone_lecture/Chapter06",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,7 +63,8 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
-    "show.run.dashboard.notification": "false"
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "9ce3d1bd8890f16a0c448093595087c6"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -105,6 +100,8 @@
       <updated>1667435689109</updated>
       <workItem from="1667435690401" duration="395000" />
       <workItem from="1667436266282" duration="299000" />
+      <workItem from="1667532876799" duration="1205000" />
+      <workItem from="1667779959660" duration="1922000" />
     </task>
     <servers />
   </component>
